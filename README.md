@@ -3,6 +3,8 @@
 
 ## `super = Reference to the parent/super class (super class) Very similar to "this" keyword Can use a super classes: constructor, methods`
 
+# JavaScript Class Reference
+
 ## `1. constructor()`
 ### Example:
 
@@ -110,4 +112,11 @@ document.getElementById("demo").innerHTML = mycar.show();
 super(arguments);  // calls the parent constructor (only inside the constructor)
 super.parentMethod(arguments);  // calls a parent method
 ```
+### Class Methods
+`constructor()` :	A special method for creating and initializing objects created within a class 
 
+### Class Keywords 
+
+`extends`:	Extends a class (inherit)
+`static` :  Defines a static method for a class
+`super`  :  Refers to the parent class
