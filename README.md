@@ -3,7 +3,7 @@
 
 ## `super = Reference to the parent/super class (super class) Very similar to "this" keyword Can use a super classes: constructor, methods`
 
-## `constructor()`
+## `1. constructor()`
 ### Example:
 
 ```javascript 
@@ -20,7 +20,7 @@ mycar = new Car("Ford");
 ```javascript 
 constructor(parameters)
 ```
-## `extends`
+## `2. extends`
 ### Example:
 ```javascript
 class Car {
@@ -47,12 +47,12 @@ document.getElementById("demo").innerHTML = mycar.show();
 ```
 `extends` is an ECMAScript6 (ES6) feature.
 
-## Syntax:
+### Syntax:
 ```javascript
 class childClass extends parentClass
 ```
-## `static`
-## Example:
+## `3. static`
+### Example:
 ```javascript
 class Car {
   constructor(brand) {
@@ -74,12 +74,12 @@ document.getElementById("demo").innerHTML = Car.hello();
 ```
 `static` is an ECMAScript6 (ES6) feature.
 
-## Syntax:
+### Syntax:
 ```javascript
 static methodName()
 ```
-## `super`
-## Example :
+## `4. super`
+### Example :
 ```javascript
 class Car {
   constructor(brand) {
@@ -105,7 +105,7 @@ document.getElementById("demo").innerHTML = mycar.show();
 ```
 `super` is an ECMAScript6 (ES6) feature.
 
-## Syntax:
+### Syntax:
 ```javascript 
 super(arguments);  // calls the parent constructor (only inside the constructor)
 super.parentMethod(arguments);  // calls a parent method
