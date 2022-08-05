@@ -117,6 +117,6 @@ super.parentMethod(arguments);  // calls a parent method
 
 ### Class Keywords 
 
-`extends`:	Extends a class (inherit)
-`static` :  Defines a static method for a class
+`extends`:	Extends a class (inherit)__
+`static` :  Defines a static method for a class__
 `super`  :  Refers to the parent class
